@@ -41,8 +41,8 @@ function App() {
             </div>
             
             <h1 className="hero-title">
-              Caring for Those Who
-              <span className="hero-title-accent">Cared for Us</span>
+              Coming
+              <span className="hero-title-accent"><em>Soon...</em></span>
             </h1>
             
             <p className="hero-description">
