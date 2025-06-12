@@ -24,8 +24,8 @@ function App() {
       <header className="header">
         <div className="container">
           <div className="logo">
-            <div className="logo-icon">♥</div>
-            <span className="logo-text">GALA</span>
+            <div className="logo-icon"><img className="logo-icon-img" src='src\assets\GALA.png'/></div>
+            <span className="logo-text"></span>
           </div>
         </div>
       </header>
@@ -37,7 +37,6 @@ function App() {
           <div className="hero">
             <div className="coming-soon-badge">
               <div className="clock-icon">⏰</div>
-              Coming Soon
             </div>
             
             <h1 className="hero-title">
