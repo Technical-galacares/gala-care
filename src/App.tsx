@@ -19,8 +19,9 @@ function App() {
   // };
 
   return (
-    <div className="bg-gradient">
-      {/* <img src="\gala_background.jpeg" /> */}
+    <div>
+      <div className="bg-gradient">
+              {/* <img src="\gala_background.jpeg" /> */}
       {/* Header */}
       <header className="header">
         <div className="container">
@@ -138,7 +139,7 @@ function App() {
           </div> */}
         </div>
       </main>
-
+      </div>
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
