@@ -16,8 +16,11 @@ body {
 
 /* Background gradient */
 .bg-gradient {
+  background-image: url("/gala_background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 100vh;
-  background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 50%, #ecfdf5 100%);
   position: relative;
 }
 

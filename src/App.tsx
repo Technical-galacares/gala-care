@@ -20,6 +20,7 @@ function App() {
 
   return (
     <div className="bg-gradient">
+      {/* <img src="\gala_background.jpeg" /> */}
       {/* Header */}
       <header className="header">
         <div className="container">
