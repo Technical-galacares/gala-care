@@ -1,3 +1,13 @@
+/* Font imports */
+@font-face {
+  font-family: 'Funnel Display';
+  src: url('/fonts/FunnelDisplay-Regular.woff2') format('woff2'),
+       url('/fonts/FunnelDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Reset and base styles */
 * {
   margin: 0;
@@ -72,6 +82,7 @@ body {
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
+  margin-left: -1rem;
 }
 
 .logo-icon-img {
@@ -101,8 +112,9 @@ body {
 .nav-link {
   color: #1a365d;
   text-decoration: none;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 16px;
   transition: color 0.2s ease;
 }
 

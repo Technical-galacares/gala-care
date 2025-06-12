@@ -31,8 +31,10 @@ function App() {
           </div>
           <nav className="nav-links">
             <a href="/dashboard" className="nav-link">Dashboard</a>
-            <a href="/care-provider" className="nav-link">Care Provider</a>
+            <a href="/profile" className="nav-link">Profile</a>
             <a href="/waitlist" className="nav-link">Waitlist</a>
+            <a href="/care-provider" className="nav-link">Care Providers</a>
+            <a href="/message" className="nav-link">Message</a>
           </nav>
         </div>
       </header>
