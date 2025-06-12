@@ -1,13 +1,3 @@
-/* Font imports */
-@font-face {
-  font-family: 'Funnel Display';
-  src: url('/fonts/FunnelDisplay-Regular.woff2') format('woff2'),
-       url('/fonts/FunnelDisplay-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Reset and base styles */
 * {
   margin: 0;
@@ -64,7 +54,7 @@ body {
 .header {
   position: relative;
   z-index: 20;
-  padding: 0.75rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   background-color: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -75,6 +65,7 @@ body {
   align-items: center;
   max-width: 1280px;
   margin: 0 auto;
+  height: 60px;
 }
 
 .logo {
@@ -86,8 +77,8 @@ body {
 }
 
 .logo-icon-img {
-  width: 120px;
-  height: 60px;
+  width: 185px;
+  height: 100px;
 }
 
 .logo-icon {
@@ -400,7 +391,7 @@ body {
 /* Responsive design */
 @media (min-width: 640px) {
   .header {
-    padding: 0.75rem 2rem;
+    padding: 0.5rem 2rem;
   }
   
   .form-container {
@@ -425,7 +416,7 @@ body {
 
 @media (max-width: 640px) {
   .header {
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 1rem;
   }
   
   .main {

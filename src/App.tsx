@@ -34,6 +34,7 @@ function App() {
             <a href="/profile" className="nav-link">Profile</a>
             <a href="/waitlist" className="nav-link">Waitlist</a>
             <a href="/care-provider" className="nav-link">Care Providers</a>
+            <a href="/care-plan" className="nav-link">Care Home</a>
             <a href="/message" className="nav-link">Message</a>
           </nav>
         </div>
@@ -45,7 +46,7 @@ function App() {
           {/* Hero Section */}
           <div className="hero">
             <div className="coming-soon-badge">
-              <div className="clock-icon">⏰</div>
+              {/* <div className="clock-icon">⏰</div> */}
             </div>
             
             <h1 className="hero-title">
