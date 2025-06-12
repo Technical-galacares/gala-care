@@ -47,12 +47,12 @@ function App() {
           <div className="hero">            
             <h1 className="hero-title">
               Coming
-              <span className="hero-title-accent"><em> Soon...</em></span>
+              <span className="hero-title-accent"> Soon...</span>
             </h1>
             
             <p className="hero-description">
             <strong>The nucleus of elder care in Canada.</strong> <br/>
-            Finding trusted care for aging loved ones is confusing, frustrating, and slow. We’re changing that. <br/>
+            Finding trusted care for aging loved ones is confusing, frustrating, and slow. We’re changing that.
             GALA is an agetech startup rebuilding the infrastructure of elder care—making it simple, transparent, and even something to celebrate.
             </p>
 
@@ -125,9 +125,7 @@ function App() {
               Be Part of the Future of Elder Care
             </h2>
             <p className="cta-description">
-            No more guesswork. No more chaos. Just clarity, compassion, and care that fits your life.
-
-To be part of our pilot which will inform the development of our core technology, 
+            No more guesswork. No more chaos. Just clarity, compassion, and care that fits your life. To be part of our pilot which will inform the development of our core technology, 
             </p>
             <div className="cta-features">
               <div className="cta-feature">

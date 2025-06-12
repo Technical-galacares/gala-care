@@ -135,6 +135,9 @@ body {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Lexend', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #000080;
 }
 
 .coming-soon-badge {
@@ -159,9 +162,10 @@ body {
 .hero-title {
   font-size: clamp(2rem, 4vw, 3.5rem);
   font-weight: 700;
-  color: #111827;
+  color: #000080;
   margin-bottom: 1rem;
   line-height: 1.1;
+  font-family: 'Lexend', sans-serif;
 }
 
 .hero-title-accent {
@@ -170,12 +174,13 @@ body {
 
 .hero-description {
   font-size: 1.125rem;
-  color: #4b5563;
+  color: #000080;
   margin-bottom: 2rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.7;
+  font-family: 'Lexend', sans-serif;
 }
 
 /* Signup form */
