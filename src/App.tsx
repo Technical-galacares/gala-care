@@ -24,7 +24,7 @@ function App() {
       <header className="header">
         <div className="container">
           <div className="logo">
-            <div className="logo-icon"><img className="logo-icon-img" src="src\assets\GALA.png"/></div>
+            <div className="logo-icon"><img className="logo-icon-img" src="\GALA.png"/></div>
             <span className="logo-text"></span>
           </div>
         </div>
