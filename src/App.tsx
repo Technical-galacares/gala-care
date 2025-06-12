@@ -26,7 +26,7 @@ function App() {
       <header className="header">
         <div className="navbar">
           <div className="logo">
-            <div className="logo-icon"><img className="logo-icon-img" src="\GALA.png"/></div>
+            <div className="logo-icon"><img className="logo-icon-img" src="\logo.png"/></div>
             <span className="logo-text"></span>
           </div>
           <nav className="nav-links">
@@ -44,19 +44,16 @@ function App() {
       <main className="main">
         <div className="content">
           {/* Hero Section */}
-          <div className="hero">
-            <div className="coming-soon-badge">
-              {/* <div className="clock-icon">⏰</div> */}
-            </div>
-            
+          <div className="hero">            
             <h1 className="hero-title">
               Coming
-              <span className="hero-title-accent"><em>Soon...</em></span>
+              <span className="hero-title-accent"><em> Soon...</em></span>
             </h1>
             
             <p className="hero-description">
-              GALA is revolutionizing elder care with a comprehensive platform that connects families, 
-              caregivers, and healthcare professionals to provide the best possible care for our loved ones.
+            <strong>The nucleus of elder care in Canada.</strong> <br/>
+            Finding trusted care for aging loved ones is confusing, frustrating, and slow. We’re changing that. <br/>
+            GALA is an agetech startup rebuilding the infrastructure of elder care—making it simple, transparent, and even something to celebrate.
             </p>
 
             {/* Email Signup
@@ -95,10 +92,9 @@ function App() {
               <div className="feature-icon blue">
                 <div className="icon-symbol">👥</div>
               </div>
-              <h3 className="feature-title">Connected Care Network</h3>
-              <p className="feature-description">
-                Seamlessly connect family members, professional caregivers, and healthcare providers 
-                in one comprehensive platform.
+              <h3 className="feature-title">Get Matched Instantly</h3>
+              <p className="feature-description"><strong>Personalized care, without the guesswork. </strong>
+              GALA connects you to the right caregiver, care home, or senior living option—based on your real needs, preferences, and timing.
               </p>
             </div>
 
@@ -106,10 +102,9 @@ function App() {
               <div className="feature-icon emerald">
                 <div className="icon-symbol">🛡️</div>
               </div>
-              <h3 className="feature-title">Peace of Mind</h3>
-              <p className="feature-description">
-                Advanced monitoring, medication reminders, and emergency response features 
-                ensure your loved ones are always safe and cared for.
+              <h3 className="feature-title">Full Transparency</h3>
+              <p className="feature-description"><strong>See waitlists. Track applications. Know what’s next. </strong>
+              Apply to care homes, monitor your spot on the waitlist, and communicate directly with providers—all in one place.
               </p>
             </div>
 
@@ -117,34 +112,34 @@ function App() {
               <div className="feature-icon purple">
                 <div className="icon-symbol">💝</div>
               </div>
-              <h3 className="feature-title">Personalized Care</h3>
-              <p className="feature-description">
-                AI-powered insights and personalized care plans tailored to each individual's 
-                unique needs and preferences.
+              <h3 className="feature-title">Real-Time Peace of Mind</h3>
+              <p className="feature-description"><strong>Know when help is on the way. </strong>
+              For in-home care, track your caregiver’s route and arrival time. Behind it all, our concierge team is ready to support you.
               </p>
             </div>
           </div>
 
-          {/* CTA Section
+          {/* CTA Section */}
           <div className="cta-section">
             <h2 className="cta-title">
               Be Part of the Future of Elder Care
             </h2>
             <p className="cta-description">
-              Join thousands of families who are already on our waitlist. Get exclusive early access 
-              and help shape the platform that will transform how we care for our elders.
+            No more guesswork. No more chaos. Just clarity, compassion, and care that fits your life.
+
+To be part of our pilot which will inform the development of our core technology, 
             </p>
             <div className="cta-features">
               <div className="cta-feature">
                 <div className="cta-icon">✉️</div>
-                <span>No spam, just meaningful updates</span>
+                <span>please contact info@galacares.com.</span>
               </div>
-              <div className="cta-feature">
+              {/* <div className="cta-feature">
                 <div className="cta-icon">📅</div>
                 <span>Launching Spring 2025</span>
-              </div>
+              </div> */}
             </div>
-          </div> */}
+          </div>
         </div>
       </main>
       </div>
@@ -152,7 +147,7 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-logo">
-            <img className="logo-icon-img" src="\GALA.png" alt="GALA Logo"/>
+            <img className="logo-icon-img" src="\logo.png" alt="GALA Logo"/>
           </div>
           <p className="footer-text">
             © 2025 Golden Age & Living Ability Inc. (GALA) | Dedicated to dignified care solutions.
