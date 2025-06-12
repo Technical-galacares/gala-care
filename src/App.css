@@ -65,7 +65,7 @@ body {
   align-items: center;
   max-width: 1280px;
   margin: 0 auto;
-  height: 65px;
+  height: 68px;
 }
 
 .logo {
@@ -77,8 +77,8 @@ body {
 }
 
 .logo-icon-img {
-  width: 150px;
-  height: 80px;
+  width: 165px;
+  height: 85px;
 }
 
 .logo-icon {
@@ -101,10 +101,10 @@ body {
 }
 
 .nav-link {
-  color: #1a365d;
+  color: #000080;
   text-decoration: none;
-  font-family: 'Funnel Display', sans-serif;
-  font-weight: 500;
+  font-family: 'Funnel Display', serif;
+  font-weight: 600;
   font-size: 16px;
   transition: color 0.2s ease;
 }
@@ -130,14 +130,15 @@ body {
   margin-bottom: 3rem;
   background-color: #F8F3E2;
   padding: .5rem 1.5rem;
-  border-radius: 5rem;
+  border-radius: 3rem;
   backdrop-filter: blur(8px);
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Lexend', sans-serif;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 14px 16px rgba(0, 0, 0, 0.25);
   color: #000080;
+  border: .1px solid #000000;
 }
 
 .coming-soon-badge {
