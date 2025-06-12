@@ -4,19 +4,19 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [email, setEmail] = useState('');
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  // const [email, setEmail] = useState('');
+  // const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email) {
-      setIsSubmitted(true);
-      setTimeout(() => {
-        setIsSubmitted(false);
-        setEmail('');
-      }, 3000);
-    }
-  };
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   if (email) {
+  //     setIsSubmitted(true);
+  //     setTimeout(() => {
+  //       setIsSubmitted(false);
+  //       setEmail('');
+  //     }, 3000);
+  //   }
+  // };
 
   return (
     <div className="bg-gradient">
@@ -50,7 +50,7 @@ function App() {
               caregivers, and healthcare professionals to provide the best possible care for our loved ones.
             </p>
 
-            {/* Email Signup */}
+            {/* Email Signup
             <div className="signup-form">
               <form onSubmit={handleSubmit}>
                 <div className="form-container">
@@ -77,7 +77,7 @@ function App() {
                   Thanks for signing up! We'll keep you updated on our progress.
                 </p>
               )}
-            </div>
+            </div> */}
           </div>
 
           {/* Features Grid */}
@@ -116,7 +116,7 @@ function App() {
             </div>
           </div>
 
-          {/* CTA Section */}
+          {/* CTA Section
           <div className="cta-section">
             <h2 className="cta-title">
               Be Part of the Future of Elder Care
@@ -135,7 +135,7 @@ function App() {
                 <span>Launching Spring 2025</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
 
@@ -147,7 +147,7 @@ function App() {
             <span className="footer-logo-text">GALA</span>
           </div>
           <p className="footer-text">
-            © 2025 GALA Elder Care Platform. Building the future of compassionate care.
+            © 2025 Golden Age & Living Ability Inc. (GALA) | Dedicated to dignified care solutions.
           </p>
         </div>
       </footer>
