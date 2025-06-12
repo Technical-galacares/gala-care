@@ -24,11 +24,16 @@ function App() {
               {/* <img src="\gala_background.jpeg" /> */}
       {/* Header */}
       <header className="header">
-        <div className="container">
+        <div className="navbar">
           <div className="logo">
             <div className="logo-icon"><img className="logo-icon-img" src="\GALA.png"/></div>
             <span className="logo-text"></span>
           </div>
+          <nav className="nav-links">
+            <a href="/dashboard" className="nav-link">Dashboard</a>
+            <a href="/care-provider" className="nav-link">Care Provider</a>
+            <a href="/waitlist" className="nav-link">Waitlist</a>
+          </nav>
         </div>
       </header>
 
@@ -144,8 +149,7 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-logo">
-            <div className="logo-icon">♥</div>
-            <span className="footer-logo-text">GALA</span>
+            <img className="logo-icon-img" src="\GALA.png" alt="GALA Logo"/>
           </div>
           <p className="footer-text">
             © 2025 Golden Age & Living Ability Inc. (GALA) | Dedicated to dignified care solutions.
