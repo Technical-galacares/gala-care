@@ -30,12 +30,12 @@ function App() {
             <span className="logo-text"></span>
           </div>
           <nav className="nav-links">
-            <a href="/dashboard" className="nav-link">Dashboard</a>
-            <a href="/profile" className="nav-link">Profile</a>
-            <a href="/waitlist" className="nav-link">Waitlist</a>
-            <a href="/care-provider" className="nav-link">Care Providers</a>
-            <a href="/care-plan" className="nav-link">Care Home</a>
-            <a href="/message" className="nav-link">Message</a>
+            <a href="" className="nav-link">Dashboard</a>
+            <a href="" className="nav-link">Profile</a>
+            <a href="" className="nav-link">Waitlist</a>
+            <a href="" className="nav-link">Care Providers</a>
+            <a href="" className="nav-link">Care Home</a>
+            <a href="" className="nav-link">Message</a>
           </nav>
         </div>
       </header>
@@ -90,7 +90,7 @@ function App() {
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon blue">
-                <div className="icon-symbol">👥</div>
+                <div className="icon-symbol"><img className="icon-symbol-img" src="\Matching.png"/></div>
               </div>
               <h3 className="feature-title">Get Matched Instantly</h3>
               <p className="feature-description"><strong>Personalized care, without the guesswork. </strong>
@@ -100,7 +100,7 @@ function App() {
 
             <div className="feature-card">
               <div className="feature-icon emerald">
-                <div className="icon-symbol">🛡️</div>
+                <div className="icon-symbol"><img className="icon-symbol-img" src="\Transparency.png"/></div>
               </div>
               <h3 className="feature-title">Full Transparency</h3>
               <p className="feature-description"><strong>See waitlists. Track applications. Know what’s next. </strong>
@@ -110,7 +110,7 @@ function App() {
 
             <div className="feature-card">
               <div className="feature-icon purple">
-                <div className="icon-symbol">💝</div>
+                <div className="icon-symbol"><img className="icon-symbol-img" src="\Peace.png"/></div>
               </div>
               <h3 className="feature-title">Real-Time Peace of Mind</h3>
               <p className="feature-description"><strong>Know when help is on the way. </strong>
