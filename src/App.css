@@ -22,6 +22,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   position: relative;
+  width: 100%;
 }
 
 .bg-gradient::before {
@@ -111,6 +112,7 @@ body {
   height: 2px;
   background: #000080;
   transition: all 0.3s ease-in-out;
+  margin: 6px 0;
 }
 
 .hamburger::before,
@@ -121,14 +123,15 @@ body {
   height: 2px;
   background: #000080;
   transition: all 0.3s ease-in-out;
+  left: 0;
 }
 
 .hamburger::before {
-  transform: translateY(-8px);
+  top: -6px;
 }
 
 .hamburger::after {
-  transform: translateY(8px);
+  bottom: -6px;
 }
 
 .hamburger.open {
@@ -137,10 +140,12 @@ body {
 
 .hamburger.open::before {
   transform: rotate(45deg);
+  top: 0;
 }
 
 .hamburger.open::after {
   transform: rotate(-45deg);
+  bottom: 0;
 }
 
 .nav-links {
@@ -168,6 +173,11 @@ body {
 
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
+  .bg-gradient {
+    background-position: center center;
+    background-attachment: scroll;
+  }
+
   .mobile-menu-button {
     display: block;
   }
@@ -197,6 +207,12 @@ body {
 
   .navbar {
     height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-gradient {
+    background-position: 60% center;
   }
 }
 
