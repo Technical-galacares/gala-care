@@ -1,9 +1,16 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+import { useState } from 'react'
 import './App.css'
 
 function App() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   // const [email, setEmail] = useState('');
   // const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -29,7 +36,14 @@ function App() {
             <div className="logo-icon"><img className="logo-icon-img" src="\logo.png"/></div>
             <span className="logo-text"></span>
           </div>
-          <nav className="nav-links">
+          
+          {/* Hamburger Menu Button */}
+          <button className="mobile-menu-button" onClick={toggleMobileMenu}>
+            <span className={`hamburger ${isMobileMenuOpen ? 'open' : ''}`}></span>
+          </button>
+
+          {/* Navigation Links */}
+          <nav className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
             <a href="" className="nav-link">Dashboard</a>
             <a href="" className="nav-link">Profile</a>
             <a href="" className="nav-link">Waitlist</a>
@@ -52,7 +66,7 @@ function App() {
             
             <p className="hero-description">
             <strong>The nucleus of elder care in Canada.</strong> <br/>
-            Finding trusted care for aging loved ones is confusing, frustrating, and slow. We’re changing that.
+            Finding trusted care for aging loved ones is confusing, frustrating, and slow. We're changing that.
             GALA is an agetech startup rebuilding the infrastructure of elder care—making it simple, transparent, and even something to celebrate.
             </p>
 
@@ -103,7 +117,7 @@ function App() {
                 <div className="icon-symbol"><img className="icon-symbol-img" src="\Transparency.png"/></div>
               </div>
               <h3 className="feature-title">Full Transparency</h3>
-              <p className="feature-description"><strong>See waitlists. Track applications. Know what’s next. </strong>
+              <p className="feature-description"><strong>See waitlists. Track applications. Know what's next. </strong>
               Apply to care homes, monitor your spot on the waitlist, and communicate directly with providers—all in one place.
               </p>
             </div>
@@ -114,7 +128,7 @@ function App() {
               </div>
               <h3 className="feature-title">Real-Time Peace of Mind</h3>
               <p className="feature-description"><strong>Know when help is on the way. </strong>
-              For in-home care, track your caregiver’s route and arrival time. Behind it all, our concierge team is ready to support you.
+              For in-home care, track your caregiver's route and arrival time. Behind it all, our concierge team is ready to support you.
               </p>
             </div>
           </div>
