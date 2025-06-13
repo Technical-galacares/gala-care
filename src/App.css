@@ -279,8 +279,8 @@ body {
   margin: 0 auto 1.5rem;
 }
 
-.feature-icon.blue {
-  background-color: #dbeafe;
+/* .feature-icon.blue {
+  background-color: #fdfeff;
 }
 
 .feature-icon.emerald {
@@ -289,7 +289,7 @@ body {
 
 .feature-icon.purple {
   background-color: #e9d5ff;
-}
+} */
 
 .icon-symbol {
   display: flex;
